@@ -1,0 +1,91 @@
+General Features:
+=================
+* Distance from Own King.
+* Distance to Enemy King.
+* Distance from Own Queen.
+* Distance to Enemy Queen.
+* Distance to center.
+* Distance to frontier.
+* Distance to own back rank.
+* Distance to opponets back rank.
+* Center squares controled.
+* Frontier squares controled.
+* Squares controled/attacked/defended in enemy teritory (beyond the fronteir).
+* Squares controled/attacked/defended in own teritory (beyond the fronteir).
+* Own king's surrounding squares controled/attacked/defended.
+* Enemy king's surrounding squares controled/attacked/defended.
+* Overloaded protection (ie: Protecting multiple peices).
+* Pawn protection (of Pawn or Piece).
+* (Own/Enemy) Pieces blocking pawn.
+* (Own/Enemy) Pieces behind pawn.
+* Open file(s).
+* Semi Open files.
+* Piece in (Semi-) Open file.
+* Piece on forepost.
+* Piece unattackable (ie: Absolute).
+* Piece in corner.
+* Piece on edge of board.
+* Has 0, 1 or 2+ of Peice type (ie: Two Bishops). 
+* Blocked in piece.
+* Number of moves a piece/pawn has (mobilty).
+* Less/more pieces/pawns than opponent.
+* Number of pieces/pawns a player has (Material - for trading down).
+* Piece/pawn supported/unsuported.
+* Avoidance/Placement of pawns/peices when faced with a lone bishop.
+* Placement of pawns/peices when faced with no bishops.
+* Avoidance/Placement of pawns/peices when faced with a lone knight.
+* Placement of pawns/peices when faced with no knights.
+
+Piece-Specific Features:
+========================
+
+Pawn:
+-----
+* Doubled pawn.
+* Isolated pawn.
+* Backward pawn.
+* Ajacent pawns (ie: for stone wall).
+* Past pawn.
+* Unstoppable pawn (ie: =Queen!).
+* Pawn on Nth rank.
+
+Knight:
+-------
+
+Bishop:
+-------
+* Fienchetoed bishop.
+* Bishop on long diagonal.
+* Lone Bishops of oposite colour.
+
+Rook:
+-----
+* Rook(s) on 7th rank.
+* Rook(s) on 8th rank.
+* Rook moved before castling.
+* Horizontally connected rooks.
+* Vertically connected rooks.
+
+Queen:
+======
+* Queen moved early.
+
+King:
+-----
+* King on Back Rank.
+* Castled King.
+* King moved before castling.
+* King with Pawns infront on first rank (Castled).
+* Enemy peices x-ray attacking king (B,R,Q).
+* Enemy pawns near king.
+* Attacked squares around king.
+
+Piece-Square features:
+======================
+* Have 64 for each peace.
+* Have a alterer for king: Center, Kingside, Queenside.
+
+Smoothing of Stages.
+====================
+* Add a new stage - No material (Kings only).
+* Then smoothly graduate proportions between stages.

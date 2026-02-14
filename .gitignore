@@ -1,0 +1,29 @@
+# Build artifacts - executables built by Makefile
+ChessTest
+PlayChess
+TrainEval
+convert_from_pgn
+normalize_eval_set
+randomize_games
+
+# Build directory
+obj/
+
+# Large training data files (not in repo)
+data/training/*.dat
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+
+# Core dumps
+core
+core.*
+
+# Generated test results
+data/test_positions/*_results.txt
+
+# Log files
+error.log
